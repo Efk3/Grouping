@@ -1,0 +1,24 @@
+{
+    "name": "efk3/grouping",
+    "type": "library",
+    "description": "Add groups, add members and let's group them",
+    "homepage": "https://github.com/Efk3/grouping",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krisztián Fekete",
+            "email": "en@efk3.net",
+            "homepage": "http://efk3.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/validator": "2.2.*",
+        "symfony/options-resolver": "2.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Efk3\\Grouping\\": ""
+        }
+    }
+}
