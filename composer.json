@@ -1,8 +1,8 @@
 {
     "name": "efk3/grouping",
     "type": "library",
-    "description": "Add groups, add members and let's group them",
-    "homepage": "https://github.com/Efk3/grouping",
+    "description": "Grouping library provides a class to create groups with different options. You add members and the class will try to pair those members to groups. It can be very helpful in some cases, like create a tag cloud.",
+    "homepage": "https://github.com/Efk3/Grouping",
     "license": "MIT",
     "authors": [
         {
@@ -13,12 +13,17 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "symfony/validator": "2.2.*",
-        "symfony/options-resolver": "2.2.*"
+        "symfony/validator": ">=2.2.0",
+        "symfony/options-resolver": ">=2.2.0"
     },
     "autoload": {
         "psr-0": {
             "Efk3\\Grouping\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
